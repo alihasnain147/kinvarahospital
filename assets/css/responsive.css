@@ -1,0 +1,25 @@
+/* Media Screen */
+@media screen and (max-width: 765px) {
+  .hero-sec-card-two {
+    height: 194px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-sec-card-one {
+    height: 188px;
+  }
+  .hero-sec-card-two {
+    height: 188px;
+  }
+  .hero-sec-card-three {
+    height: 188px;
+    padding: 20px;
+  }
+  .hero-sec-card-four {
+    height: 188px;
+  }
+  .hero-sec-card-five {
+    height: 188px;
+  }
+}
+/* Media Screen End */

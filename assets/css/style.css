@@ -1,0 +1,89 @@
+/* Home Page */
+.hero-sec-search {
+  border-radius: 50px;
+}
+.hero-sec-card-one {
+  background-color: #c44337;
+  color: white;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 110px;
+}
+.hero-sec-card-two {
+  background-color: #95d35a;
+  color: white;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 184px;
+}
+.hero-sec-card-three {
+  background-color: #7735da;
+  color: white;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 184px;
+}
+.hero-sec-card-four {
+  background-color: #3772b8;
+  color: white;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 184px;
+}
+.hero-sec-card-five {
+  background-color: #d29b46;
+  color: white;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 184px;
+}
+.hero-sec-card-six {
+  background-color: #efee53;
+  color: white;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 184px;
+}
+.hero-sec-card-seven {
+  background-color: #61b8c2;
+  color: white;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 184px;
+}
+.hero-sec-card-eight {
+  background-color: #c44337;
+  color: white;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 184px;
+}
+.hero-sec-card-nine {
+  background-color: #7735da;
+  color: white;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 184px;
+}
+ul li {
+  list-style: none;
+}
+/* Home Page End */
