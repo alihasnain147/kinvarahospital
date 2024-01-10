@@ -175,4 +175,27 @@ a {
   border: 2px solid #d2d8e2;
   padding: 2px;
 }
+.diversity-sec {
+  background-color: #f9fbfe;
+  padding: 10px;
+}
+.diversity-sec button {
+  background-color: white;
+  border: 2px solid #d2dae6;
+  padding: 5px;
+}
+.employ-roles-sec {
+  background-color: #dce5f4;
+  padding: 10px;
+}
+.employ-roles-sec button {
+  background-color: white;
+  border: 2px solid #d2dae6;
+  padding: 5px;
+}
+  .chart-container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  }
 /* Dashboard End */
