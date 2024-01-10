@@ -86,9 +86,12 @@
 ul li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 /* Home Page End */
 
-/* Dashboard */
+/* Risk Generator */
 .dash-td ul li {
   list-style: circle;
 }
@@ -103,5 +106,73 @@ ul li {
 .table-sec {
   width: 100%;
   overflow-x: scroll;
+}
+/* Risk Generator End */
+
+/* Dashboard */
+.spare-top {
+  background-color: #258e89;
+  padding: 40px;
+}
+.dash-top-head {
+  background-color: #efee53;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+.dash-human-res {
+  background-color: #4472c4;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+.dash-clinical-act {
+  background-color: #ed7d31;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+.employee-btn {
+  background-color: #f3f6fb;
+}
+.employee-det {
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0% !important;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.employee-det-two {
+  justify-content: space-between;
+  padding: 20px;
+  padding-top: 0% !important;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.empl-col {
+  background-color: #f3f6fb;
+}
+.empl-count {
+  background-color: #bdbdbd;
+  text-align: center;
+}
+.gender-sec {
+  background-color: #f4f7fc;
+}
+.avrg-age {
+  padding: 10px;
+  background-color: #e8eef8;
+  border: 2px solid #e3e9f7;
+}
+.avrg-age-butn {
+  background: transparent;
+  color: black;
+  border: 2px solid #d2d8e2;
+  padding: 2px;
 }
 /* Dashboard End */
