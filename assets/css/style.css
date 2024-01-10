@@ -87,3 +87,21 @@ ul li {
   list-style: none;
 }
 /* Home Page End */
+
+/* Dashboard */
+.dash-td ul li {
+  list-style: circle;
+}
+.risk-reg {
+  text-align: center;
+  background-color: #3772b8;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 6px;
+}
+.table-sec {
+  width: 100%;
+  overflow-x: scroll;
+}
+/* Dashboard End */

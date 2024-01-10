@@ -3,6 +3,21 @@
   .hero-sec-card-two {
     height: 194px;
   }
+  .hero-sec-card-five {
+    height: 187.5px;
+  }
+  .hero-sec-card-three {
+    padding: 25px;
+    padding-top: 35px;
+  }
+  .hero-sec-card-seven {
+    padding: 25px;
+    padding-top: 35px;
+  }
+  .top-sec {
+    margin-top: 35px;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .hero-sec-card-one {
