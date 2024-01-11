@@ -24,6 +24,9 @@
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Graph Script -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
 <body>
@@ -72,27 +75,27 @@
         <br><br>
     </header>
     <main>
-        <div class="container-fluid p-0 m-0">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 dash-top-head mb-4">
                     <h3>Dashboard Jan-March 2024</h3>
                 </div>
             </div>
-            <div class="col-lg-12 spare-top"></div>
             <div class="row">
+                <div class="col-lg-12  spare-top"></div>
                 <div class="col-lg-6 col-md-12">
                     <div class="row">
                         <div class="col-lg-12 dash-human-res">
                             <h3>Human Resources</h3>
                         </div>
-                        <div class="col-lg-6" style="border-color: #E9EEF8;">
+                        <div class="col-lg-6 col-12" style="border-color: #E9EEF8;">
                             <div class="row">
-                                <div class="col-lg-6 empl-count">
+                                <div class="col-lg-6 col-6 empl-count">
                                     <i class="fa fa-user"></i>
                                     <h5>Employee Count</h5>
                                     <h5>(62)</h5>
                                 </div>
-                                <div class="col-lg-6 gender-sec" style="border-color: #E9EEF8;">
+                                <div class="col-lg-6 col-6 gender-sec" style="border-color: #E9EEF8;">
                                     <button class="rounded-0 btn w-100 mt-2 bg-white">Gender</button>
                                     <div class="row mt-3">
                                         <div class="col-lg-6 text-center">
@@ -146,6 +149,85 @@
                                     <center><button>Employee Roles</button></center>
                                 </div>
                             </div>
+                            <div id="chart_div" class="mt-2"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="row attrition-ro">
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-4">
+                                    <center><button class="attrition-btn mt-3">Attrition</button> <br>
+                                        <h5>0</h5>
+                                    </center>
+                                </div>
+                                <div class="col-lg-4">
+                                    <center><button class="new-start-btn mt-3">New Starters</button> <br>
+                                        <h5>0</h5>
+                                    </center>
+                                </div>
+                                <div class="col-lg-2"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 bad-occup">
+                            <h4>Bad Occupancy</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="row patent-saf-ro">
+                                <div class="col-lg-12  patient-safty">
+                                    <h2>Patient Safety</h2>
+                                </div>
+                                <div class="col-lg-4 mt-2">
+                                    <center>
+                                        <button class="ms-2 re-admiss-btn">Re-admission</button>
+                                        <br>
+                                        <h5>0</h5>
+                                    </center>
+                                </div>
+                                <div class="col-lg-4 mt-2">
+                                    <center>
+                                        <button class="patient-fall-btn">Patient Falls</button>
+                                        <br>
+                                        <h5>0</h5>
+                                    </center>
+                                </div>
+                                <div class="col-lg-4 mt-2">
+                                    <center>
+                                        <button class="infection-btn">Infections</button>
+                                        <br>
+                                        <h5>0</h5>
+                                    </center>
+                                </div>
+                                <div class="col-lg-4 mt-2">
+                                    <center>
+                                        <button class="ms-2 re-admiss-btn">Serious Utoward Incidents</button>
+                                        <br>
+                                        <h5>0</h5>
+                                    </center>
+                                </div>
+                                <div class="col-lg-4 mt-2">
+                                    <center>
+                                        <button class="patient-fall-btn">Transfers Out</button>
+                                        <br>
+                                        <h5>0</h5>
+                                    </center>
+                                </div>
+                                <div class="col-lg-4 mt-2">
+                                    <center>
+                                        <button class="infection-btn">Spesis</button>
+                                        <br>
+                                        <h5>0</h5>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <center>
+                                <img src="./assets/img/dashboard/percentage.PNG" alt="">
+                                <h2 class="mt-3">34%</h2>
+                            </center>
                         </div>
                     </div>
                 </div>
@@ -154,8 +236,66 @@
                         <div class="col-lg-12 dash-clinical-act">
                             <h3>Clinical Activity</h3>
                         </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12 daycase-surg">
+                                    <h5>Daycase Surgery</h5>
+                                </div>
+                            </div>
+                            <center>
+                                <h3>Graph Here</h3>
+                            </center>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12 daycase-surg">
+                                    <h5>Inpatient Surgery</h5>
+                                </div>
+                                <center>
+                                    <h3>Graph Here</h3>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-lg-12 daycase-surg">
+                                    <h5>Consultation</h5>
+                                </div>
+                            </div>
+                            <center>
+                                <h3>Graph Here</h3>
+                            </center>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row">
+                                <div class="col-lg-12 daycase-surg">
+                                    <h5>DNA</h5>
+                                </div>
+                            </div>
+                            <center><button class="number-btn mt-4">13</button></center>
+                        </div>
+                        <div class="col-lg-12 frnd-n-fam-sec mt-2">
+                            <h2>Friends & Family Test</h2>
+                        </div>
+                        <div class="col-lg-12">
+                            <h6 class="mt-3">Number of respondents <span class="ms-5"><b>34</b></span></h6>
+                            <h3 class="mt-3">Comments</h3>
+                            <ul class="comment-lies">
+                                <li>Hospital Rooms lovely and clean</li>
+                                <li>Staff wonderfull, caring, polite & professional</li>
+                                <li>Overall atmosphere and ambiance welcoming</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-2 mt-4 col-6">
+                    <center><button class="entr-data-btn">Enter Data</button></center>
+                </div>
+                <div class="col-lg-2 mt-4 col-6">
+                    <center><button class="print-btn">Print</button></center>
+                </div>
+                <div class="col-lg-4"></div>
             </div>
         </div>
     </main>
@@ -248,6 +388,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <!-- Script -->
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

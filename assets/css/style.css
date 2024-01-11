@@ -193,9 +193,115 @@ a {
   border: 2px solid #d2dae6;
   padding: 5px;
 }
-  .chart-container {
-    width: 50%;
-    height: 50%;
-    margin: auto;
-  }
+.chart-container {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+.bad-occup {
+  background-color: #b952ff;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.attrition-ro {
+  background-color: #c0cbe0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.new-start-btn {
+  background-color: white;
+  border: none;
+  padding: 5px;
+}
+.attrition-btn {
+  background-color: white;
+  border: none;
+  padding: 5px;
+}
+.patient-safty {
+  background-color: #70ad47;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+
+.re-admiss-btn {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  border: 2px solid #dfdfdd;
+  padding: 7px;
+  font-weight: 700;
+}
+.patient-fall-btn {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  border: 2px solid #dfdfdd;
+  padding: 6px;
+  font-weight: 700;
+}
+.infection-btn {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  border: 2px solid #dfdfdd;
+  padding: 6px;
+  font-weight: 700;
+}
+.patent-saf-ro {
+  background-color: #f6fbf4;
+}
+.daycase-surg {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 2px solid #d5d5d5;
+  padding: 5px;
+}
+.number-btn {
+  border: 2px solid #848484;
+  padding: 15px;
+  width: 100px;
+  background: transparent;
+}
+.frnd-n-fam-sec {
+  background-color: #f5e28b;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 14px;
+}
+.comment-lies li {
+  list-style: disc;
+}
+.entr-data-btn {
+  background-color: #38b6ff;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  width: 75%;
+}
+.print-btn {
+  background-color: #38b6ff;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  width: 75%;
+}
 /* Dashboard End */
