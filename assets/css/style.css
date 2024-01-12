@@ -305,3 +305,78 @@ a {
   width: 75%;
 }
 /* Dashboard End */
+
+/* Risk Register */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+}
+.impact-sec {
+  background-color: #3772b8;
+  color: white;
+  font-weight: 700;
+}
+.row-sp-two {
+  padding: 90px;
+}
+.yell-col-row {
+  background-color: #f4f400;
+  padding: 20px;
+}
+.green-col-row {
+  background-color: #a9ce50;
+  padding: 20px;
+}
+.one-col-row {
+  background-color: #c1ff72;
+  padding: 20px;
+}
+.red-col-row {
+  background-color: #ff0000;
+  padding: 20px;
+}
+.orange-col-row {
+  background-color: #fec000;
+  padding: 20px;
+}
+.likelihood-sec {
+  background-color: #3772b8;
+  color: white;
+  font-weight: 600;
+}
+.all-same-sec {
+  background-color: white;
+  font-weight: 600;
+}
+.server-red-col {
+  background-color: #ff0000;
+  padding: 5px 40px 5px 40px;
+}
+.high-org-col {
+  background-color: #fec000;
+  padding: 5px 40px 5px 40px;
+}
+.med-yell-col {
+  background-color: #c1ff72;
+  padding: 5px 40px 5px 40px;
+}
+.low-green-col {
+  background-color: #a9ce50;
+  padding: 5px 40px 5px 40px;
+}
+.neg-one-col {
+  background-color: #c1ff72;
+  padding: 5px 40px 5px 40px;
+}
+/* Risk Register End*/
